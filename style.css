@@ -1,0 +1,51 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline red ;
+    color: chocolate;
+}
+#display{
+    height: 22vh;
+    font-size: 0.7em;
+    text-align: right;
+    /* border-radius: 5px; */
+}
+.box{
+    height: 11vh;
+    width: 6vw;
+    text-align: center;
+    /* border-radius: 5px; */
+    background-color: white;
+    /* box-shadow: 1px 0 0.5px 0; */
+    font-weight: 500;
+}
+@media screen and (max-width:950px){
+    .box{
+        width: 13vw;
+    }
+}
+@media screen and (max-width:500px) {
+    .box{
+        width: 20vw;
+    }
+}
+table{
+    margin: auto;
+    background-color:rgb(223, 221, 221);
+    font-size: 2.5em;
+}
+.box:hover{
+    background-color:rgb(198, 198, 127);
+}
+.spe{
+    background-color: rgb(233, 121, 41);
+}
+.spec1{
+    background-color: rgb(169, 169, 169);
+}
+.spe:hover{
+    background-color: rgb(232, 153, 97);
+}
+.spec1:hover{
+    background-color: rgb(209, 205, 205);
+}
